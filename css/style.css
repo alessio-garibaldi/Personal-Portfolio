@@ -24,9 +24,6 @@ html {
         width: 70vw ;
     }
 
-    .presentation-quote {
-        height: fit-content !important;
-    }
 
     /* MISSION */
     .mission-item {
@@ -385,11 +382,18 @@ header {
 /* ABOUT ME */
 
 .about-quote {
-    height: 15vh;
+    height: fit-content !important;
+    min-height: 15vh !important;
     width: 100%;
     overflow-y: hidden; 
+    flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+}
+
+.about-quote q,
+.about-quote cite {
+    height: fit-content !important;
 }
 
 #about-me {
@@ -420,11 +424,18 @@ header {
 /* SKILLS */
 
 .skills-quote {
+    height: fit-content !important;
+    min-height: 15vh !important;
     width: 100%;
-    height: 15vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    overflow-y: hidden; 
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.skills-quote q,
+.skills-quote cite {
+    height: fit-content !important;
 }
 
 #skills {
@@ -475,11 +486,18 @@ header {
 /* PORTFOLIO */
 
 .portfolio-quote {
+    height: fit-content !important;
+    min-height: 15vh !important;
     width: 100%;
-    height: 15vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    overflow-y: hidden; 
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.portfolio-quote q,
+.portfolio-quote cite {
+    height: fit-content !important;
 }
 
 #portfolio {
@@ -531,11 +549,18 @@ header {
 /* CONTACTS */
 
 .contacts-quote {
+    height: fit-content !important;
+    min-height: 15vh !important;
     width: 100%;
-    height: 15vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    overflow-y: hidden; 
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.contacts-quote q,
+.contacts-quote cite {
+    height: fit-content !important;
 }
 
 #contacts {
