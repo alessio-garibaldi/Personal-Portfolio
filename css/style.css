@@ -338,7 +338,7 @@ header {
 
 .presentation-quote q,
 .presentation-quote cite {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
 }
 
 
