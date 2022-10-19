@@ -331,12 +331,15 @@ header {
 .presentation-quote {
     width: 100%;
     height: 15vh;
-    min-height: fit-content !important;
     flex-direction: column;
     justify-content: center;
     z-index: 50;
 }
 
+.presentation-quote q,
+.presentation-quote cite {
+    overflow-y: hidden;
+}
 
 
 /* MISSION */
