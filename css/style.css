@@ -328,7 +328,8 @@ header {
 }
 
 .presentation-quote {
-    height: 15vh;
+    height: fit-content !important;
+    min-height: 15vh !important;
     width: 100%;
     overflow-y: hidden; 
     flex-direction: column !important;
@@ -338,7 +339,7 @@ header {
 
 .presentation-quote q,
 .presentation-quote cite {
-    overflow-y: hidden !important;
+    height: fit-content !important;
 }
 
 
