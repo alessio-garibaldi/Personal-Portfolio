@@ -330,7 +330,7 @@ header {
 
 .presentation-quote {
     width: 100%;
-    height: 15vh;
+    height: fit-content;
     flex-direction: column;
     justify-content: center;
     z-index: 50;
