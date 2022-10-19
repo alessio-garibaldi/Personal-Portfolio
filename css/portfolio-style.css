@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    height: 100vh !important;
+    background-image: url("../img/volcano.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+@media all and (max-width: 376px) and (orientation: portrait) {
+    
+    .carousel-item.project {
+        min-height: 70vh !important;
+    }
+}
+
+@media all and (min-width: 768px) and (orientation: portrait) {
+    
+    .carousel-item.project {
+        min-height: 60vh !important;
+        height: fit-content;
+    }
+}
+
+@media all and (min-width: 766px) and (orientation: landscape) {
+    
+    #portfolio {
+        flex-direction: row !important;
+    }
+
+    .portfolio-item {
+        width: 40vw !important;
+        margin: 10vh 3vw !important;
+    }
+
+    .carousel-item.project {
+        min-height: 90vh !important;
+    }
+
+    .carousel-item.project img {
+        width: 25vw !important;
+    }
+    
+    .project-description {
+        width: 30vw !important;
+    }
+}
+
+/* HEADER */
+
+header {
+    z-index: 999;
+    width: 100%;
+    margin-top: 0 !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    position: fixed !important;
+    justify-content: space-around !important;
+}
+
+.navbar-brand img{
+    opacity: 0.7;
+    width: 150px !important;
+}
+
+.list-group-horizontal {
+    height: 40px !important;
+    padding-top: 1vh;
+}
+
+.list-group-horizontal .list-group-item {
+    margin: 0 35px;
+}
+
+.offcanvas {
+    background-image: url("../img/clouds.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    transition: transform 1s ease-in-out !important;
+} 
+
+.offcanvas-body {
+    align-items: center !important;
+    margin: 20vh auto;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    width: 100%;
+    height: fit-content;
+    min-height: 135vh !important;
+    background-image: url("../img/volcano.jpg");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-item:nth-child(1) {
+    margin-top: 15vh;
+}
+
+.portfolio-item {
+    border-radius: 15px;
+    padding: 2%;
+    width: 85vw;
+    height: fit-content;
+    margin: 20vh auto !important;
+}
+
+.portfolio-item-title {
+    border-radius: 15%;
+}
+
+.carousel-item.project {
+    min-height: 75vh;
+}
+
+.carousel-item.project img {
+    width: 60vw;
+    margin: 10px auto;
+}
+
+.project-description {
+    width: 60vw;
+    margin: auto;
+}
+
+

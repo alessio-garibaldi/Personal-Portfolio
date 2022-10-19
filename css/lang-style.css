@@ -1,0 +1,88 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    height: 100vh !important;
+    background-image: url("../img/mountain.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+@media all and (min-width: 766px) and (orientation: landscape) {
+
+    .certificates {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .certificates .card {
+        max-width: 30vw !important;
+    }
+}
+/* HEADER */
+
+header {
+    z-index: 999;
+    width: 100%;
+    margin-top: 0 !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    position: fixed !important;
+    justify-content: space-around !important;
+}
+
+.navbar-brand img{
+    opacity: 0.7;
+    width: 150px !important;
+}
+
+.list-group-horizontal {
+    height: 40px !important;
+    padding-top: 1vh;
+}
+
+.list-group-horizontal .list-group-item {
+    margin: 0 35px;
+}
+
+.offcanvas {
+    background-image: url("../img/clouds.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    transition: transform 1s ease-in-out !important;
+} 
+
+.offcanvas-body {
+    align-items: center !important;
+    margin: 20vh auto;
+}
+
+
+/* CERTIFICATES */
+
+.certificates {
+    width: 90% !important;
+    margin: 15vh auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.certificates .card {
+    margin: 5vh 5vw;
+    padding: 1vw;
+    height: fit-content;
+}

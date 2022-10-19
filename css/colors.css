@@ -1,0 +1,396 @@
+/* HOMEPAGE & HEADER*/
+
+header {
+    background-color: #bfbfbe6b !important;
+    backdrop-filter: blur(5px);
+    }
+
+
+.list-group-item {
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.list-group-item a {
+    color: #464545;
+    text-shadow: 
+    0 0 3px #888888,
+    0 0 5px #888888;
+}
+
+.list-group-item a:hover {
+    text-shadow: 
+    0 0 3px #d3d3d3,
+    0 0 5px #ececec,
+    0 0 10px #fefefe;
+}
+
+.list-group-item.page0 a:hover {
+    color: #f0f0f0;
+}
+
+.list-group-item.page1 a:hover {
+    color: #23954d;
+}
+
+.list-group-item.page2 a:hover {
+    color: #2c43a3;
+}
+
+.list-group-item.page3 a:hover {
+    color: #ffa600;
+}
+
+.list-group-item.page4 a:hover {
+    color: #bf0e0e;
+}
+
+.list-group-item.page5 a:hover {
+    color: rgb(255, 87, 205);
+}
+
+/* PRESENTATION */
+
+.presentation {
+    background-color: transparent !important;
+}
+
+.presentation h2 {
+    color: #2c4e38;
+}
+
+.presentation h1{
+    color: #407251;
+}
+
+.presentation .card-text {
+    color: #5da477;
+}
+
+.presentation .card-text span {
+    color: #407251;
+}
+
+.presentation p {
+    color:#888888;
+}
+
+.card-text .text-muted a {
+    color:#5da477 !important;
+}
+
+.card-text .text-muted a:hover {
+    color: #75bb8f !important;
+}
+
+.presentation-quote {
+    background-color: #a8c476;
+    border: 5px solid #37915586; 
+}
+
+.presentation-quote q {
+    color: #407251;
+}
+
+.presentation-quote cite {
+    color: #5da477;
+}
+
+
+/* MISSION */
+
+.mission-item {
+    backdrop-filter: blur(1px);
+    background-color: #062930ba;
+}
+
+.mission-text {
+    color:#a8c476;
+}
+
+.mission-highlight {
+    color: #e5ffb6;
+    text-shadow: 
+    0 0 3px #a8c476,
+    0 0 5px #a8c476;
+}
+
+.mission-end {
+    color:#a8c476;
+    text-shadow: 
+    0 0 7px #5da477;
+}
+
+.mission-end strong {
+    color: #e5ffb6;
+    text-shadow: 
+    0 0 3px #a8c476,
+    0 0 5px #a8c476;
+}
+
+.enter-button {
+    color: rgb(100, 55, 33);
+    border: 3px solid #BF953F;
+    border-radius: 5%;
+    background-image: linear-gradient(to right, #B38728, #FCF6BA, #B38728);
+    box-shadow: 
+    0 0 3px #B38728,
+    0 0 5px #c89a36,
+    0 0 10px #fecb5e;
+}
+
+.enter-button a {
+    color: rgb(100, 55, 33);
+}
+
+.enter-button a:hover {
+    color:rgb(154, 87, 53);
+    text-shadow: 
+    0 0 10px #9e7b2e;
+}
+
+
+/* ABOUT ME */
+
+.about-quote {
+    color: #83C4D6;
+    background-color: #1B2447;
+    border: 5px solid #3675be87;
+}
+
+.about-text p {
+    color: #97c9d6;
+}
+
+.about-text p:nth-child(5) {
+    color: #c9fbff;
+    text-shadow: 
+    0 0 3px #83C4D6;
+}
+
+.about-text p span {
+    color: #c9fbff;
+    text-shadow: 
+    0 0 3px #defafc;
+}
+
+.about-text p a {
+    color:#83C4D6 !important;
+}
+
+.about-text p a:hover {
+    color: #b2dae6 !important;
+}
+
+
+/* SKILLS */
+
+.skills-quote {
+    background-color: #ffc16b;
+    border: 5px solid #a4672e88; 
+}
+
+.skills-quote q {
+    color: #fe6726;
+}
+
+.skills-quote cite {
+    color: #ff8754;
+}
+
+.skills-item {
+    background-color: rgba(249, 244, 141, 0.532);
+}
+
+.skills-item-title {
+    color: #872800;
+}
+
+.carousel-item.skill h3 {
+    color: #8f1800;
+}
+
+.carousel-item.skill p {
+    color: #7b402e;
+}
+
+.carousel-item.skill p a {
+    color: #771072 !important;
+}
+
+.to-portfolio a {
+    background-color: #ffa600e0;
+    color:#ff2200;
+    text-shadow: 0 0 5px #ff624d;
+}
+
+.to-portfolio a:hover {
+    color: #ff492d;
+}
+
+
+
+/* LANGUAGES CERTIFICATES */
+
+.certificates .card{
+    color: white;
+    background-color: #ad3da68c;
+}
+
+.certificates .card .card-text a {
+    color: #feb6fb;
+}
+
+.certificates .card .card-text a:hover {
+    color: #fd8df7;
+}
+
+.certificates .card .btn {
+    background-color: #feb6fb;
+    color: rgb(83, 83, 83);
+}
+
+.certificates .card .btn:hover {
+    background-color: #fd8df7;
+    color: white;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-quote {
+    background-color: #ff624d;
+    border: 5px solid #b4000088; 
+}
+
+.portfolio-quote q {
+    color: #631717;
+}
+
+.portfolio-quote cite {
+    color: #aa1616;
+}
+
+.portfolio-item {
+    background-color: #aa161695;
+}
+
+.portfolio-item-title {
+    background-color: #ff492d9c;
+    color: #cecece;
+}
+
+.portfolio-item h3 {
+    color: #f1f1f1;
+}
+
+.carousel-item.project {
+    background-color: #ff492d9c;
+}
+
+.carousel-item.project h2 {
+    color: #565656;
+}
+
+.btn.more-projects {
+    border: 3px solid #BF953F;
+    background-image: linear-gradient(to right, #B38728, #FCF6BA, #B38728);
+    box-shadow: 
+    0 0 3px #B38728,
+    0 0 5px #c89a36,
+    0 0 10px #fecb5e;
+}
+
+.btn.more-projects a {
+    color: rgb(100, 55, 33);
+}
+
+.btn.more-projects a:hover {
+    color:rgb(154, 87, 53);
+    text-shadow: 
+    0 0 5px #9e7b2e;
+}
+
+
+/* CONTACTS */
+
+.contacts-quote {
+    background-color: #FFA6AE;
+    border: 5px solid #A600A2; 
+}
+
+.contacts-quote q {
+    color: #6A3B6B;
+}
+
+.contacts-quote cite {
+    color: #975499;
+}
+
+#contacts h2,
+#contacts label{
+    color:rgb(125, 27, 95);
+}
+
+#contact-question {
+    color: #7e1a5b !important;
+    background-color: #ff98c686;
+}
+
+#contacts p {
+    color: #7e1a5b;
+}
+
+
+
+#contact-form {
+    background-color: #ff98c6cf;
+}
+
+#contacts p a {
+    color: #9b3878;
+}
+
+#contacts p a:hover {
+    color: #9a5281;
+}
+
+
+
+.contact-info {
+    background-color: #ff98c6cf;
+}
+
+#contacts .btn {
+    background-color: #7e1a5b;
+    color: #ff98c6;
+}
+
+#contacts .btn:hover {
+    background-color: #a5337d;
+    color: #f7a4c9;
+    text-shadow: 
+    0 0 3px #9b3878;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(to bottom, #686767, #b3b3b3);
+    border: 5px solid #464545;
+}
+
+footer p {
+    color: white;
+}
+
+footer p a {
+    color: #ffd1d1;
+}
+
+footer p a:hover {
+    color: #ffadad;
+    text-decoration: underline;
+}
+

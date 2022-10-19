@@ -1,0 +1,448 @@
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+
+
+@media all and (max-width: 376px) and (orientation: portrait) {
+    /* MISSION */
+    
+    .mission-end {
+        font-size: 1.3rem !important;
+    }
+
+    /* ABOUT ME */
+
+    .about-text p{ 
+        text-align: center;
+        font-size: 1rem !important;
+    }
+    .about-text p:nth-child(5) {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    
+}
+
+
+
+
+@media all and (min-width: 768px) and (orientation: portrait) {
+
+    /* HEADER */
+    .offcanvas-body .list-group-item a{
+        font-size: 3rem !important;
+    }
+
+    /* PRESENTATION */
+    .presentation h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .presentation h1 {
+        font-size: 4.5rem !important;
+    }
+
+    .presentation p {
+        font-size: 2rem !important;
+    }
+
+    .presentation-quote q {
+        font-size: 2.5rem !important;
+    }
+
+    .presentation-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /* MISSION */
+
+    .mission-text {
+        font-size: 1.3rem !important;
+    }
+
+    .mission-highlight {
+        font-size: 1.5rem !important;
+    }
+
+    .mission-end {
+        font-size: 1.6rem !important;
+    }
+
+
+    /* ABOUT ME */
+
+    .about-quote p {
+        font-size: 2.5rem !important;
+    }
+
+
+    /* SKILLS */
+
+    .skills-quote q {
+        font-size: 2.5rem !important;
+    }
+
+    .skills-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /* PORTFOLIO */
+
+    .portfolio-quote q {
+        font-size: 2.5rem !important;
+    }
+
+    .portfolio-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /* PORTFOLIO */
+
+    .contacts-quote q {
+        font-size: 2.5rem !important;
+    }
+
+    .contacts-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+} 
+
+
+
+
+@media all and (min-width: 766px) and (orientation: landscape) {
+    
+    /* PRESENTATION */
+    
+    .presentation h2 {
+        font-size: 2rem !important;
+        text-align: left !important;
+    }
+    
+    .presentation h1 {
+        font-size: 4.5rem !important;
+        text-align: left !important;
+
+    }
+
+    .presentation p {
+        text-align: left !important;
+        font-size: 1.5rem !important;
+    }
+
+    .presentation-quote q {
+        font-size: 2rem !important;
+    }
+
+    .presentation-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /* MISSION */
+
+    .mission-text {
+        font-size: 1.4rem !important;
+    }
+
+    .mission-highlight {
+        font-size: 1.8rem !important;
+    }
+
+
+    /* ABOUT PAGE */
+
+    .about-quote p{
+        font-size: 2rem !important;
+    }
+
+
+    /* SKILLS PAGE */
+
+    .skills-quote q {
+        font-size: 2rem !important;
+    }
+
+    .skills-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /* PORTFOLIO */
+
+    .portfolio-quote q {
+        font-size: 2rem !important;
+    }
+
+    .portfolio-quote cite {
+        font-size: 1.5rem !important;
+    }
+
+
+    /*  CONTACTS */
+
+    .contacts-quote q {
+        font-size: 2rem !important;
+    }
+
+    .contacts-quote cite {
+        font-size: 1.5rem !important;
+    }
+} 
+
+
+
+
+/* HOME-PAGE & HEADER */
+
+.list-group-item a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.offcanvas-body .list-group-item a{
+    text-align: center !important;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+/* PRESENTATION */
+.presentation h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.presentation h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card-text .text-muted a {
+    text-decoration: none;
+}
+
+.card-text .text-muted a:hover {
+    font-size: 1.4rem !important;
+}
+
+.presentation-quote {
+    text-align: center;
+}
+
+.presentation-quote q {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+/* MISSION */
+
+.mission-item {
+    text-align: center;
+}
+
+.mission-text{
+    font-size: 1.05rem;
+}
+
+.mission-highlight {
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+}
+
+.mission-end {
+    font-size: 1.4rem;
+}
+
+.mission-end strong {
+    letter-spacing: 0.1em;
+}
+
+.enter-button {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.enter-button a {
+    text-decoration: none;
+}
+
+
+/* ABOUT ME */
+
+.about-quote p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.about-text p:nth-child(5) {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.about-text p span {
+    font-size: 1.1rem;
+}
+
+.about-text p a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+/* SKILLS */
+
+.skills-quote {
+    text-align: center;
+}
+
+.skills-quote q {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.skills-item {
+    text-align: center;
+}
+
+.skills-item-title {
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    font-size: 2rem !important;
+}
+
+.carousel-item.skill h3 {
+    font-weight: 700;
+    font-size: 1.7rem !important;
+}
+
+.carousel-item.skill p {
+    font-size: 1.2rem !important;
+}
+
+.carousel-item.skill p a {
+    font-weight: 700;
+}
+
+.to-portfolio a {
+    text-decoration: none;
+}
+
+/* CERTIFICATES */
+
+.certificates .card .card-text a {
+    text-decoration: none;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-quote {
+    text-align: center;
+}
+
+.portfolio-quote q {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item-title {
+    font-size: 2rem;
+}
+
+.portfolio-item h3 {
+    font-size: 1.8rem;
+}
+
+.project h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.project-description {
+    font-size: 1.5rem;
+}
+
+.project-skills {
+    font-size: 1.7rem;
+}
+
+.btn.more-projects {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.btn.more-projects a {
+    text-decoration: none;
+}
+
+
+/* CONTACTS */
+
+.contacts-quote {
+    text-align: center;
+}
+
+.contacts-quote q {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#contacts h2{
+    font-weight: 700;
+    font-size: 2.5rem !important;
+}
+
+#contacts p {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#contacts label {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#contacts p a {
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+
+
+
