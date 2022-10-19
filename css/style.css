@@ -538,7 +538,7 @@ header {
     width: 100%;
     height: fit-content;
     padding: 10vh 0 10vh 0;
-    background-image: url("../img/city.jpeg");
+    background-image: url("../img/city.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
