@@ -283,6 +283,7 @@ header {
     border-bottom-right-radius: 20px !important;
     position: fixed !important;
     justify-content: space-around !important;
+    overflow: hidden !important;
 }
 
 .navbar-brand img{
@@ -293,6 +294,7 @@ header {
 .list-group-horizontal {
     height: 40px !important;
     padding-top: 1vh;
+    overflow: hidden !important;
 }
 
 .list-group-horizontal .list-group-item {
