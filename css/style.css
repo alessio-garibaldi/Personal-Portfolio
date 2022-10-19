@@ -20,6 +20,9 @@ html {
         width: 70vw ;
     }
 
+    .presentation-quote {
+        height: fit-content !important;
+    }
 
     /* MISSION */
     .mission-item {
