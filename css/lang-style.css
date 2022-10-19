@@ -37,7 +37,7 @@ header {
     border-bottom-right-radius: 20px !important;
     position: fixed !important;
     justify-content: space-around !important;
-    overflow: hidden !important;
+    overflow-y: hidden !important;
 }
 
 .navbar-brand img{
@@ -46,9 +46,9 @@ header {
 }
 
 .list-group-horizontal {
-    height: 40px !important;
+    height: fit-content !important;
     padding-top: 1vh;
-    overflow: hidden !important;
+    overflow-y: hidden !important;
 }
 
 .list-group-horizontal .list-group-item {

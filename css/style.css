@@ -292,9 +292,9 @@ header {
 }
 
 .list-group-horizontal {
-    height: 40px !important;
+    height: fit-content !important;
     padding-top: 1vh;
-    overflow: hidden !important;
+    overflow-y: hidden;
 }
 
 .list-group-horizontal .list-group-item {
