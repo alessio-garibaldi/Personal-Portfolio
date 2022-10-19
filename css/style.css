@@ -337,6 +337,12 @@ header {
     justify-content: center !important;
 }
 
+.presentation-quote q,
+.presentation-quote cite {
+    overflow-y: hidden !important;
+}
+
+
 
 
 
