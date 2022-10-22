@@ -394,3 +394,21 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+
+/* THANK YOU PAGE */
+
+#thankyou-msg h1 {
+    color: white;
+}
+
+#thankyou-msg h2 {
+    color:rgb(117, 43, 166);
+}
+
+#thankyou-msg a {
+    color:rgb(117, 43, 166);
+}
+
+#thankyou-msg a:hover {
+    color:rgb(134, 94, 160);
+}

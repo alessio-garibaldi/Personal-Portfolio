@@ -444,5 +444,25 @@ footer p a {
 }
 
 
+/* THANK YOU PAGE */
+
+#thankyou-msg h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#thankyou-msg h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#thankyou-msg a {
+    text-decoration: none;
+}
+
+
+
+
+
 
 
