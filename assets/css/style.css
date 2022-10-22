@@ -9,7 +9,23 @@ html {
     scroll-behavior: smooth !important;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #a8c476, #75bb8f, #83C4D6, #ffc16b, #ff624d, #FFA6AE); 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #B38728, #FCF6BA, #B38728); 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #b49041, #faf8e3, #b49041); 
+}
 
 
 @media all and (max-width: 376px) and (orientation: portrait) {
