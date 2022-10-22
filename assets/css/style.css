@@ -302,7 +302,7 @@ header {
 }
 
 .offcanvas {
-    background-image: url("../img/clouds.jpg");
+    background-image: url("../assets/img/clouds.jpg");
     height: 100vh !important;
     background-repeat: no-repeat;
     background-size: cover;
