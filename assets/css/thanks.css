@@ -65,8 +65,15 @@ header {
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.thankyou-msgtxt {
+    border-radius: 25px;
+    width: fit-content;
+    background-color: #fff;
+    padding: 2vw;
+    margin: 2vw;
 }
 

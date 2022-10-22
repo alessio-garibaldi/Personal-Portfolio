@@ -397,18 +397,17 @@ footer p a:hover {
 
 /* THANK YOU PAGE */
 
-#thankyou-msg h1 {
+.thankyou-msgtxt {
+    background-color: #ad3da68c;
+
+}
+
+.thankyou-msgtxt h1,
+.thankyou-msgtxt h2,
+.thankyou-msgtxt a:hover {
     color: white;
 }
 
-#thankyou-msg h2 {
-    color:rgb(117, 43, 166);
-}
-
-#thankyou-msg a {
-    color:rgb(117, 43, 166);
-}
-
-#thankyou-msg a:hover {
-    color:rgb(134, 94, 160);
+.thankyou-msgtxt a {
+    color:rgb(229, 190, 255);
 }

@@ -446,17 +446,21 @@ footer p a {
 
 /* THANK YOU PAGE */
 
-#thankyou-msg h1 {
+.thankyou-msgtxt {
+    text-align: center;
+}
+
+.thankyou-msgtxt h1 {
     font-size: 5rem;
     font-weight: 700;
 }
 
-#thankyou-msg h2 {
+.thankyou-msgtxt h2 {
     font-size: 3rem;
     font-weight: 500;
 }
 
-#thankyou-msg a {
+.thankyou-msgtxt a {
     text-decoration: none;
 }
 
