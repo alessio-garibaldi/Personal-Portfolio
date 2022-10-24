@@ -366,29 +366,29 @@
     font-weight: 700;
 }
 
+.carousel-title {
+    font-weight: 700;
+    font-size: 3rem;
+}
 .portfolio-item {
     text-align: center;
 }
 
-.portfolio-item-title {
-    font-size: 2rem;
-}
-
-.portfolio-item h3 {
-    font-size: 1.8rem;
+.portfolio-item a {
+    text-decoration: none;
 }
 
 .project h2 {
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .project-description {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .project-skills {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
 }
 
 .btn.more-projects {
@@ -420,7 +420,8 @@
 
 #contacts p {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    flex-wrap: wrap;
 }
 
 #contacts label {
@@ -428,7 +429,7 @@
     font-size: 1.3rem;
 }
 
-#contacts p a {
+#contacts a {
     text-decoration: none;
 }
 

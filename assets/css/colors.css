@@ -271,17 +271,25 @@ header {
     color: #aa1616;
 }
 
+.carousel-title {
+    color: #ececec;
+    text-shadow: 0 0 5px #aa1616;
+}
+
 .portfolio-item {
     background-color: #aa161695;
 }
 
-.portfolio-item-title {
-    background-color: #ff492d9c;
-    color: #cecece;
+.portfolio-item .card {
+    background-color: #fb9e92d1;
 }
 
-.portfolio-item h3 {
+.portfolio-item a {
     color: #f1f1f1;
+}
+
+.portfolio-item a:hover {
+    color: #515151;
 }
 
 .carousel-item.project {
@@ -341,17 +349,15 @@ header {
     color: #7e1a5b;
 }
 
-
-
 #contact-form {
     background-color: #ff98c6cf;
 }
 
-#contacts p a {
+.contact-info li a {
     color: #9b3878;
 }
 
-#contacts p a:hover {
+.contact-info li a:hover {
     color: #9a5281;
 }
 

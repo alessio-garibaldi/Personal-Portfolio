@@ -133,9 +133,37 @@ html {
 
     /* PORTFOLIO */
 
-    .carousel-item.project {
-        min-height: 60vh !important;
-        height: fit-content;
+    #portfolio {
+        height: 100vh !important;
+        align-items: center !important;
+    }
+
+    .carousel-title {
+        padding-top: 0vh !important;
+    }
+
+    .carousel-inner.project-pages {
+        width: 90vw !important;        
+    }
+
+    .portfolio-item.project {
+        height: 70vh;
+        width: 90vw !important;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+    }
+
+    .carousel-item.project .card {
+        justify-content: space-between !important;
+        min-height: 55vh !important;
+        height: fit-content !important;
+        width: 30vw !important;
+        margin-top: 0px !important;
+    }
+
+    .carousel-item.project .card img {
+        width: 25vw !important;
     }
 
 }
@@ -220,20 +248,28 @@ html {
     }
 
     .portfolio-item {
-        width: 40vw !important;
-        margin: 10vh 3vw !important;
-    }
-
-    .carousel-item.project {
+        width: 85vw !important;
+        padding: 5vh 1vw !important;
+        flex-direction: row !important;
+        justify-content: space-evenly;
         min-height: 80vh !important;
     }
 
-    .carousel-item.project img {
+    .carousel-item.project .card {
+        width: 30vw !important;
+        padding: 2vh 1vw;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item.project .card img {
         width: 25vw !important;
     }
     
     .project-description {
-        width: 30vw !important;
+        width: 20vw !important;
     }
     
     .btn.more-projects {
@@ -524,47 +560,42 @@ header {
 
 #portfolio {
     width: 100%;
-    height: fit-content;
-    min-height: 135vh !important;
+    min-height: 120vh;
     background-image: url("../img/volcano.jpg");
     background-size: cover;
-    flex-direction: column;
     justify-content: center;
+}
+
+.carousel-title {
+    padding-top: 15vh;
+}
+
+.portfolio-item.project {
+    margin: 5vh auto;
+    width: 90vw;
+    border-radius: 15px;
+    min-height: fit-content;
+    flex-direction: column;
     align-items: center;
 }
 
-.portfolio-item:nth-child(1) {
-    margin-top: 15vh;
-}
-
-.portfolio-item {
+.carousel-item.project .card {
     border-radius: 15px;
-    padding: 2%;
-    width: 85vw;
+    width: 70vw;
+    padding: 1vw;
     height: fit-content;
-    margin: 10vh auto !important;
+    display: flex;
+    align-items: center;
 }
 
-.portfolio-item-title {
-    border-radius: 15%;
-}
-
-.carousel-item.project {
-    min-height: 75vh;
-}
-
-.carousel-item.project img {
-    width: 60vw;
-    margin: 10px auto;
+.carousel-item.project .card img {
+    width: 50vw;
+    margin: 0 auto;
+    border-radius: 30px !important;
 }
 
 .project-description {
-    width: 60vw;
-    margin: auto;
-}
-
-.btn.more-projects {
-    border-radius: 50%;
+    max-width: 55vw;
 }
 
 
@@ -612,6 +643,7 @@ header {
     border-radius: 5%;
     padding: 15px 30px !important;
     margin: 4vh auto;
+    max-width: 80%;
     width: fit-content;
     height: fit-content;
 }
